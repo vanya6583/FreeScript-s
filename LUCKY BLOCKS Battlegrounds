@@ -1,1 +1,9 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Loading!", Description = "For Lucky Block Battleground! Have a good time!"},
+    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 10, Type = "default"}
+)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/637889173", true))()
